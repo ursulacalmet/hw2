@@ -182,7 +182,7 @@ tom_hardy = Actor.find_by({"name" => "Tom Hardy"})
 joseph_gordon = Actor.find_by({"name" => "Joseph Gordon-Levitt"})
 anne_hathaway = Actor.find_by({"name" => "Anne Hathaway"})
 
-#bat_begins
+#Batman Begins
 new_role = Role.new
 new_role["movie_id"] = bat_begins["id"]
 new_role["actor_id"] = christian_bale["id"]
@@ -245,7 +245,7 @@ new_role["actor_id"] = maggie_gyllenhaal["id"]
 new_role ["character_name"] = "Rachel Dawes"
 new_role.save
 
-# The Dark Knight Rises
+#The Dark Knight Rises
 
 new_role = Role.new
 new_role["movie_id"] = bat_dark_rises["id"]
